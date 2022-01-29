@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Responsive gallery</title>
+    </head>
+   <style> {
+    color: grey;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    border-radius: 10px;
+    background-color: #7abaf5; 
+    margin: 15px 0;
+    flex-basis: 17%;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box p {
+    color: grey;
+    background-color: #f5f4f4;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .box {
+        flex-basis: 30%;
+    }
+}
+    
+@media screen and (max-width: 414px) {
+    .box {
+        flex-basis: 100%;
+    }
+}</style>
+    <body>
+        <h2>Gallery Heading</h2>
+        <div id="main">
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+            <div class="box">
+                <img src="placeholder-image.png" alt="icon">
+                <p>Image Title</p>
+            </div>
+        </div>
+<p> Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML.CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+    </body>
+</html>
